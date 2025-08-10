@@ -1,0 +1,17 @@
+.Container {
+    width: 400px;
+    height: 400px;
+    background-color: steelblue;
+    margin: 80px auto;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleY(0.5);
+    transform: scaleZ(2);
+}
