@@ -1,0 +1,17 @@
+
+p {
+    font-family: Verdana;
+}
+.styling {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#s1>#paragraph {
+    color: red;
+}
+p:hover {
+    color: pink;
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+}

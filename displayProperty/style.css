@@ -1,0 +1,22 @@
+*{
+    /* border: 1px solid;
+    border-color: aqua; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    text-align: end;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+li {
+    display: inline;
+    padding: 20px;
+    
+}
+li:hover {
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* box sizing used to remove the extra sizes by border and margin and ajdust the content to our given height and width: ; */
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    /* align-items: center; */
+    border: 5px solid blueviolet;
+    padding: 20px 20px 20px 20px;
+    margin: 25px ;
+
+
+}

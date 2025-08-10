@@ -1,0 +1,51 @@
+body {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+/* pseudo classes */
+.primary-btn:hover{
+    color: orange;
+    background-color: black;
+}
+.primary-btn:link {
+    color: aqua;
+}
+.primary-btn:visited {
+    color: purple;
+}
+ul li:first-child {
+    color: red;
+}
+ul li:nth-child(2n) {
+    background-color: green;
+} 
+/* pseudo elemetn  */
+h2::first-letter {
+    background-color: red;
+    font-size: 3rem;
+}
+p::first-line {
+    background-color: burlywood;
+}
+::selection {
+    color: greenyellow;
+    background-color: black;
+}
+/* before and after */
+h3::before {
+    content: 'Hi there ';
+}
+h3::after {
+    content: ' BOOM';
+}
+.important::after {
+    content: 'important';
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
